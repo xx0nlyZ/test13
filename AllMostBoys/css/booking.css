@@ -653,3 +653,39 @@
   .step-count { display: none; }
   .wizard-foot .btn { flex: 1; }
 }
+
+@media (max-width: 480px) {
+  .wizard-body { padding: 20px 14px 6px; min-height: 0; }
+  .wizard-foot { padding: 14px; gap: 10px; }
+  .stepper { padding: 14px 12px; gap: 4px; }
+  .step-dot .dot { width: 26px; height: 26px; font-size: 0.72rem; }
+
+  .panel-head { margin-bottom: 18px; }
+  .panel-head h2 { font-size: 1.15rem; }
+  .panel-head p { font-size: 0.9rem; }
+
+  .cal { padding: 14px; }
+  .cal-nav { margin-bottom: 12px; }
+  .cal-label { font-size: 0.95rem; }
+  .cal-nav-btn { width: 34px; height: 34px; }
+  .cal-grid, .cal-head { gap: 5px; }
+  .cal-day { font-size: 0.82rem; border-radius: 10px; }
+
+  .slot-card { padding: 12px; }
+  .slot-card .t { font-size: 0.93rem; }
+  .dur-card { padding: 16px 10px; }
+  .dur-card .n { font-size: 1.45rem; }
+
+  .price-preview { padding: 16px; }
+  .price-preview .total { font-size: 1.7rem; }
+
+  .side-box { padding: 18px 16px; }
+  .summary { padding: 8px 16px 16px; }
+  .sum-row { font-size: 0.9rem; }
+  .sum-row.total strong { font-size: 1.4rem; }
+
+  .confirm-view { padding: 26px 16px; }
+  .confirm-view h2 { font-size: 1.35rem; }
+  .confirm-id { padding: 10px 20px; font-size: 1rem; }
+  .confirm-actions .btn { flex: 1 1 100%; }
+}
