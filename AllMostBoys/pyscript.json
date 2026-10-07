@@ -1,0 +1,6 @@
+{
+  "fetch": [
+    { "from": "./py/store.py", "to": "store.py" },
+    { "from": "./py/ui.py", "to": "ui.py" }
+  ]
+}
